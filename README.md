@@ -64,3 +64,11 @@ If you want to learn more about building native executables, please consult http
 Easily start your RESTful Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+
+
+## curl :
+curl --location 'http://localhost:8080/file/sign/withpfx' \
+--form 'file=@"/home/admin1/Downloads/Resume.pdf"' \
+--form 'description="aadhar"'
+
+
